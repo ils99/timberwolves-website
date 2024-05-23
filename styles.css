@@ -4,13 +4,13 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure the body takes the full viewport height */
+    min-height: 100vh; 
 }
 
 header {
-    background-color: #0C2340; /* Vintage blue */
-    height: 15vh; /* Header height */
-    width: 100%; /* Full width */
+    background-color: #0C2340; 
+    height: 15vh; 
+    width: 100%; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,24 +19,24 @@ header {
 .container {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Align slightly to the left */
-    padding-left: 20px; /* Add some padding to the left */
+    justify-content: flex-start; 
+    padding-left: 20px; 
 }
 
 .logo {
-    width: 300px; /* Logo width */
+    width: 300px; 
     height: auto;
     margin-right: 20px;
 }
 
 h1 {
     color: white;
-    font-size: 6em; /* Font size */
+    font-size: 6em; 
     margin: 0;
 }
 
 nav {
-    background-color: #005083; /* Lighter blue */
+    background-color: #005083; 
     padding: 10px 0;
     text-align: center;
 }
@@ -50,13 +50,13 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 60px; /* Margin */
+    margin: 0 60px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.5em; /* Font size */
+    font-size: 1.5em; 
 }
 
 nav ul li a:hover {
@@ -64,73 +64,73 @@ nav ul li a:hover {
 }
 
 .content-container {
-    display: flex; /* Use flexbox to align main content and fun facts side by side */
+    display: flex; 
     padding: 20px;
-    flex: 1; /* Allow content to grow */
-    max-width: 1200px; /* Constrain width */
-    margin: 10px auto; /* Center content horizontally */
+    flex: 1; 
+    max-width: 1200px; 
+    margin: 10px auto; 
 }
 
 .main-content {
-    flex: 2; /* Give main content more space */
-    margin-right: 20px; /* Space between main content and fun facts */
+    flex: 2; 
+    margin-right: 20px; 
 }
 
 .main-content h2, .main-content h3 {
-    font-size: 1.5em; /* Font size */
+    font-size: 1.5em; 
     color: #0C2340;
-    margin-bottom: 10px; /* Margin */
+    margin-bottom: 10px; 
 }
 
 .article-image {
-    float: left; /* Float image */
-    width: 300px; /* Image width */
+    float: left; 
+    width: 300px; 
     height: auto;
-    margin: 0 20px 10px 0; /* Margin */
+    margin: 0 20px 10px 0; 
 }
 
 .article-text {
-    font-size: 1em; /* Font size */
+    font-size: 1em; 
     line-height: 1.4;
     color: #333;
-    max-width: 500px; /* Constrain width */
+    max-width: 500px; 
 }
 
 .fun-facts {
-    flex: 1; /* Give fun facts less space */
+    flex: 1; 
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align to the left */
+    align-items: flex-start; 
 }
 
 .fact-box {
     display: flex;
     align-items: center;
-    margin-bottom: 20px; /* Space between boxes */
-    width: 100%; /* Full width */
+    margin-bottom: 20px; 
+    width: 100%; 
 }
 
 .fact-box:nth-child(1), .fact-box:nth-child(3) {
-    background-color: #d8e7f3; /* Light blue Timberwolves color */
+    background-color: #d8e7f3; 
     padding: 10px;
     border-radius: 8px;
 }
 
 .fact-image {
-    width: 215px; /* Increased image width */
+    width: 215px; 
     height: auto;
-    margin-right: 20px; /* Space between image and text */
+    margin-right: 20px; 
 }
 
 .fact-text {
-    font-size: 1.2em; /* Increased font size */
+    font-size: 1.2em; 
     line-height: 1.4;
     color: #333;
-    max-width: calc(100% - 170px); /* Constrain width to allow space for image */
+    max-width: calc(100% - 170px); 
 }
 
 footer {
-    background-color: #0C2340; /* Footer color */
+    background-color: #0C2340; 
     color: white;
     text-align: center;
     padding: 30px 0;
@@ -146,23 +146,23 @@ footer ul {
 }
 
 footer ul li {
-    margin: 0 40px; /* Footer link margin */
+    margin: 0 40px; 
 }
 
 footer ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1em; /* Footer link font size */
+    font-size: 1em;
 }
 
 footer ul li a:hover {
     text-decoration: underline;
 }
 
-/* Media Queries for Responsive Design */
+
 @media (max-width: 768px) {
     h1 {
-        font-size: 3em; /* Adjust font size for smaller screens */
+        font-size: 3em; 
     }
 
     nav ul {
@@ -170,29 +170,29 @@ footer ul li a:hover {
     }
 
     nav ul li {
-        margin: 10px 0; /* Adjust margin for smaller screens */
+        margin: 10px 0; 
     }
 
     .content-container {
-        flex-direction: column; /* Stack content vertically */
+        flex-direction: column; 
     }
 
     .main-content {
-        margin-right: 0; /* Remove margin */
+        margin-right: 0; 
     }
 
     .article-image {
         width: 100%;
-        margin: 0 0 10px 0; /* Adjust margin for smaller screens */
-        float: none; /* Remove float for smaller screens */
+        margin: 0 0 10px 0; 
+        float: none; 
     }
 
     .article-text {
-        max-width: 100%; /* Full width for smaller screens */
+        max-width: 100%; 
     }
 
     .fun-facts {
-        align-items: center; /* Center align for smaller screens */
+        align-items: center; 
         padding-right: 0;
     }
 
@@ -202,35 +202,35 @@ footer ul li a:hover {
     }
 
     .fact-text {
-        margin-right: 0; /* Remove margin */
-        margin-bottom: 10px; /* Add space below text */
-        max-width: 100%; /* Full width for smaller screens */
+        margin-right: 0; 
+        margin-bottom: 10px; 
+        max-width: 100%;
     }
 
     .fact-image {
-        width: 80%; /* Adjust image size for smaller screens */
+        width: 80%; 
     }
 }
 
 @media (max-width: 480px) {
     .logo {
-        width: 150px; /* Adjust logo size for smaller screens */
+        width: 150px; 
     }
 
     h1 {
-        font-size: 2em; /* Further adjust font size for very small screens */
+        font-size: 2em; 
     }
 
     nav ul li {
-        margin: 5px 0; /* Adjust margin for very small screens */
+        margin: 5px 0; 
     }
 
     .main-content {
         padding: 5px;
-        margin: 10px 10px; /* Further adjust margin for very small screens */
+        margin: 10px 10px; 
     }
 
     footer ul li {
-        margin: 10px 0; /* Adjust footer margin for very small screens */
+        margin: 10px 0; 
     }
 }
